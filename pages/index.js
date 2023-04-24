@@ -1,7 +1,9 @@
+import Login from './login/login'
+
 export default function Home() {
   return (
     <div>
-      <p>Hello world </p>
+      <Login />
     </div>
   )
 }
