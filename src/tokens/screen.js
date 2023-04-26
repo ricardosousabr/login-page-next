@@ -1,15 +1,9 @@
-const small = '576px'
-const medium = '576px'
-const large = '576px'
-const extraLarge = '576px'
-const extraExtraLarge = '576px'
-
 const screens = {
-  small,
-  medium,
-  large,
-  extraLarge,
-  extraExtraLarge,
+  small: '576px',
+  medium: '576px',
+  large: '576px',
+  extraLarge: '576px',
+  extraExtraLarge: '576px',
 }
 
 export default screens
