@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <div>
+      <form
+        class="styles__ContainerForm-sc-1mvgtyc-1 SwPoe"
+      >
+        <div>
+          <div>
+            <p
+              class="styles__Text-sc-1mvgtyc-0 drepAy"
+            >
+              Email Address
+            </p>
+          </div>
+          <div
+            class="styles__BoxInput-sc-1mvgtyc-2 gsrSRD"
+          >
+            <input
+              class="styles__InputLogin-sc-1mvgtyc-3 fmXnxm"
+              placeholder="your@email.com"
+              type="text"
+            />
+            <img
+              alt=""
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg%2Femail-img.png&w=256&q=75"
+              srcset="/_next/image?url=%2Fimg%2Femail-img.png&w=96&q=75 1x, /_next/image?url=%2Fimg%2Femail-img.png&w=256&q=75 2x"
+              style="color: transparent;"
+              width="70"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <p
+              class="styles__Text-sc-1mvgtyc-0 drepAy"
+            >
+              Password
+            </p>
+          </div>
+          <div
+            class="styles__BoxInput-sc-1mvgtyc-2 gsrSRD"
+          >
+            <input
+              class="styles__InputLogin-sc-1mvgtyc-3 fmXnxm"
+              placeholder="Enter your password"
+              type="text"
+            />
+            <img
+              alt=""
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg%2Fpassword-img.png&w=256&q=75"
+              srcset="/_next/image?url=%2Fimg%2Fpassword-img.png&w=96&q=75 1x, /_next/image?url=%2Fimg%2Fpassword-img.png&w=256&q=75 2x"
+              style="color: transparent;"
+              width="70"
+            />
+          </div>
+        </div>
+        <div>
+          <button>
+            Login Now
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
