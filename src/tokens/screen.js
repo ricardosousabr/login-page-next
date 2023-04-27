@@ -1,9 +1,9 @@
 const screens = {
+  xSmaall: '350px',
   small: '576px',
-  medium: '576px',
-  large: '576px',
-  extraLarge: '576px',
-  extraExtraLarge: '576px',
+  medium: '768px',
+  large: '992px',
+  extraLarge: '1200px',
 }
 
 export default screens
