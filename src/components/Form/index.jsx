@@ -54,7 +54,7 @@ export default function Form() {
         <HorizontalLine></HorizontalLine>
       </BoxHorizontalLine>
       <div>
-        <Button>Login Now</Button>
+        <Button>Signup Now</Button>
       </div>
     </Cointainer>
   )

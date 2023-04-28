@@ -97,7 +97,7 @@ exports[`renders homepage unchanged 1`] = `
       <button
         class="styles__ButtonForm-sc-1penh9l-0 kkXLeC"
       >
-        Login Now
+        Signup Now
       </button>
     </div>
   </div>
