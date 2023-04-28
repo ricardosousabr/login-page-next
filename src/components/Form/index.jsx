@@ -1,12 +1,21 @@
 import colors from '../../tokens/colors.js'
 import Image from 'next/image'
-import { InputLogin, Text, ContainerForm, BoxInput } from './styles'
+import Button from '../Button/index.jsx'
+import {
+  Cointainer,
+  InputLogin,
+  Text,
+  ContainerForm,
+  BoxInput,
+  BoxHorizontalLine,
+  HorizontalLine,
+} from './styles'
 
 export default function Form() {
   console.log(colors.grayy)
 
   return (
-    <div>
+    <Cointainer>
       <div>
         <ContainerForm>
           <div>
@@ -33,10 +42,20 @@ export default function Form() {
             </BoxInput>
           </div>
           <div>
-            <button>Login Now</button>
+            <Button>Login Now</Button>
           </div>
         </ContainerForm>
       </div>
-    </div>
+      <BoxHorizontalLine>
+        <HorizontalLine></HorizontalLine>
+        <div>
+          <Text>OR</Text>
+        </div>
+        <HorizontalLine></HorizontalLine>
+      </BoxHorizontalLine>
+      <div>
+        <Button>Login Now</Button>
+      </div>
+    </Cointainer>
   )
 }

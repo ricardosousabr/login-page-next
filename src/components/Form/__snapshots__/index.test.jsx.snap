@@ -2,24 +2,26 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div>
-  <div>
+  <div
+    class="styles__Cointainer-sc-1mvgtyc-0 ijrgAF"
+  >
     <div>
       <form
-        class="styles__ContainerForm-sc-1mvgtyc-1 SwPoe"
+        class="styles__ContainerForm-sc-1mvgtyc-2 hPCLag"
       >
         <div>
           <div>
             <p
-              class="styles__Text-sc-1mvgtyc-0 drepAy"
+              class="styles__Text-sc-1mvgtyc-1 ekFwPK"
             >
               Email Address
             </p>
           </div>
           <div
-            class="styles__BoxInput-sc-1mvgtyc-2 gsrSRD"
+            class="styles__BoxInput-sc-1mvgtyc-3 dqaQrm"
           >
             <input
-              class="styles__InputLogin-sc-1mvgtyc-3 fmXnxm"
+              class="styles__InputLogin-sc-1mvgtyc-4 caUaSa"
               placeholder="your@email.com"
               type="text"
             />
@@ -39,16 +41,16 @@ exports[`renders homepage unchanged 1`] = `
         <div>
           <div>
             <p
-              class="styles__Text-sc-1mvgtyc-0 drepAy"
+              class="styles__Text-sc-1mvgtyc-1 ekFwPK"
             >
               Password
             </p>
           </div>
           <div
-            class="styles__BoxInput-sc-1mvgtyc-2 gsrSRD"
+            class="styles__BoxInput-sc-1mvgtyc-3 dqaQrm"
           >
             <input
-              class="styles__InputLogin-sc-1mvgtyc-3 fmXnxm"
+              class="styles__InputLogin-sc-1mvgtyc-4 caUaSa"
               placeholder="Enter your password"
               type="text"
             />
@@ -66,11 +68,37 @@ exports[`renders homepage unchanged 1`] = `
           </div>
         </div>
         <div>
-          <button>
+          <button
+            class="styles__ButtonForm-sc-1penh9l-0 kkXLeC"
+          >
             Login Now
           </button>
         </div>
       </form>
+    </div>
+    <div
+      class="styles__BoxHorizontalLine-sc-1mvgtyc-5 zzFbQ"
+    >
+      <div
+        class="styles__HorizontalLine-sc-1mvgtyc-6 gCAllm"
+      />
+      <div>
+        <p
+          class="styles__Text-sc-1mvgtyc-1 ekFwPK"
+        >
+          OR
+        </p>
+      </div>
+      <div
+        class="styles__HorizontalLine-sc-1mvgtyc-6 gCAllm"
+      />
+    </div>
+    <div>
+      <button
+        class="styles__ButtonForm-sc-1penh9l-0 kkXLeC"
+      >
+        Login Now
+      </button>
     </div>
   </div>
 </div>
