@@ -3,7 +3,7 @@ import Button from '../Button/index.jsx'
 
 import { useState } from 'react'
 import { initializeApp } from 'firebase/app'
-import { getDatabase, ref, set } from 'firebase/database'
+import { getDatabase, ref, set, child, get } from 'firebase/database'
 import firebaseConfig from '../../../firebase/config.js'
 
 import {
@@ -19,14 +19,33 @@ import {
 export default function Form() {
   const app = initializeApp(firebaseConfig)
   const database = getDatabase()
+  const [emailUser, setEmailUser] = useState()
+  const [passwordUser, setPasswordUser] = useState()
 
   function sendData(e) {
     e.preventDefault()
-    set(ref(database, 'users/' + 1), {
-      name: 'Ricardo',
-    })
+    if (emailUser == '' || passwordUser == '') {
+      set(ref(database, 'users/' + 1), {
+        email: emailUser,
+        password: passwordUser,
+      })
+    } else {
+      alert('Preencha todos os campos')
+    }
   }
 
+  function verifyUser() {
+    const dbRef = ref(getDatabase())
+    get(child(dbRef, `users/`))
+      .then((snapshot) => {
+        console.log(snapshot.val())
+      })
+      .catch((error) => {
+        console.error(error)
+      })
+  }
+
+  console.log(verifyUser())
   return (
     <Cointainer>
       <div>
@@ -40,7 +59,7 @@ export default function Form() {
                 type="text"
                 placeholder="your@email.com"
                 onChange={(e) => {
-                  setEmail(e.target.value)
+                  setEmailUser(e.target.value)
                 }}
               />
               <Image src="/img/email-img.png" alt="" width={70} height={50} />
@@ -51,7 +70,13 @@ export default function Form() {
               <Text>Password</Text>
             </div>
             <BoxInput>
-              <InputLogin type="text" placeholder="Enter your password" />
+              <InputLogin
+                type="text"
+                placeholder="Enter your password"
+                onChange={(e) => {
+                  setPasswordUser(e.target.value)
+                }}
+              />
               <Image
                 src="/img/password-img.png"
                 alt=""
