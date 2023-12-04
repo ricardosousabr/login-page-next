@@ -3,7 +3,7 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <div
-    class="styles__Cointainer-sc-1mvgtyc-0 gNLBYg"
+    class="styles__Container-sc-1mvgtyc-0 cOySVR"
   >
     <div>
       <form
@@ -24,6 +24,7 @@ exports[`renders homepage unchanged 1`] = `
               class="styles__InputLogin-sc-1mvgtyc-4 fQpLzf"
               placeholder="your@email.com"
               type="text"
+              value=""
             />
             <img
               alt=""
@@ -53,6 +54,7 @@ exports[`renders homepage unchanged 1`] = `
               class="styles__InputLogin-sc-1mvgtyc-4 fQpLzf"
               placeholder="Enter your password"
               type="text"
+              value=""
             />
             <img
               alt=""

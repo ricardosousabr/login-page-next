@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import colors from '../../tokens/colors.js'
 import screens from '../../tokens/screen.js'
 
-export const Cointainer = styled.div`
+export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
