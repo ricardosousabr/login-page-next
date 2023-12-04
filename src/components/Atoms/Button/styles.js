@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import colors from '../../tokens/colors'
-import screens from '../../tokens/screen.js'
+import colors from '../../../tokens/colors.js'
+import screens from '../../../tokens/screen.js'
 
 export const ButtonForm = styled.button`
   background: ${colors.primary};

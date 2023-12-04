@@ -3,7 +3,7 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <button
-    class="styles__ButtonForm-sc-1penh9l-0 kKfXFj"
+    class="styles__ButtonForm-sc-scim8g-0 gGAxDf"
   />
 </div>
 `;

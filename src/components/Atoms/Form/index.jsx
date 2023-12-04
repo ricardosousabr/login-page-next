@@ -4,7 +4,7 @@ import Button from '../Button/index.jsx'
 import { useState } from 'react'
 import { initializeApp } from 'firebase/app'
 import { getDatabase, ref, set, child, get } from 'firebase/database'
-import firebaseConfig from '../../../firebase/config.js'
+import firebaseConfig from '../../../../firebase/config.js'
 
 import {
   Container,
@@ -14,7 +14,7 @@ import {
   BoxInput,
   BoxHorizontalLine,
   HorizontalLine,
-} from './styles'
+} from './styles.js'
 
 export default function Form() {
   const app = initializeApp(firebaseConfig)
