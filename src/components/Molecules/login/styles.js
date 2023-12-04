@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Image from 'next/image'
-import screens from '../../src/tokens/screen'
+import screens from '../../../tokens/screen'
 
 export const Container = styled.div`
   display: flex;

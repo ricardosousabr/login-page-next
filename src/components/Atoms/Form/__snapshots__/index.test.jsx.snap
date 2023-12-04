@@ -3,25 +3,25 @@
 exports[`renders homepage unchanged 1`] = `
 <div>
   <div
-    class="styles__Container-sc-1mvgtyc-0 cOySVR"
+    class="styles__Container-sc-1cjsn6e-0 dWFvFg"
   >
     <div>
       <form
-        class="styles__ContainerForm-sc-1mvgtyc-2 ewUtlJ"
+        class="styles__ContainerForm-sc-1cjsn6e-2 jpBIfw"
       >
         <div>
           <div>
             <p
-              class="styles__Text-sc-1mvgtyc-1 kKfjjD"
+              class="styles__Text-sc-1cjsn6e-1 kuMQGu"
             >
               Email Address
             </p>
           </div>
           <div
-            class="styles__BoxInput-sc-1mvgtyc-3 cMRDmz"
+            class="styles__BoxInput-sc-1cjsn6e-3 gFPbXi"
           >
             <input
-              class="styles__InputLogin-sc-1mvgtyc-4 fQpLzf"
+              class="styles__InputLogin-sc-1cjsn6e-4 bXRtkK"
               placeholder="your@email.com"
               type="text"
               value=""
@@ -42,16 +42,16 @@ exports[`renders homepage unchanged 1`] = `
         <div>
           <div>
             <p
-              class="styles__Text-sc-1mvgtyc-1 kKfjjD"
+              class="styles__Text-sc-1cjsn6e-1 kuMQGu"
             >
               Password
             </p>
           </div>
           <div
-            class="styles__BoxInput-sc-1mvgtyc-3 cMRDmz"
+            class="styles__BoxInput-sc-1cjsn6e-3 gFPbXi"
           >
             <input
-              class="styles__InputLogin-sc-1mvgtyc-4 fQpLzf"
+              class="styles__InputLogin-sc-1cjsn6e-4 bXRtkK"
               placeholder="Enter your password"
               type="text"
               value=""
@@ -71,7 +71,7 @@ exports[`renders homepage unchanged 1`] = `
         </div>
         <div>
           <button
-            class="styles__ButtonForm-sc-1penh9l-0 kKfXFj"
+            class="styles__ButtonForm-sc-scim8g-0 gGAxDf"
           >
             Login Now
           </button>
@@ -79,25 +79,25 @@ exports[`renders homepage unchanged 1`] = `
       </form>
     </div>
     <div
-      class="styles__BoxHorizontalLine-sc-1mvgtyc-5 gCdKxl"
+      class="styles__BoxHorizontalLine-sc-1cjsn6e-5 hMEFDo"
     >
       <div
-        class="styles__HorizontalLine-sc-1mvgtyc-6 fVkAEP"
+        class="styles__HorizontalLine-sc-1cjsn6e-6 hduEhi"
       />
       <div>
         <p
-          class="styles__Text-sc-1mvgtyc-1 kKfjjD"
+          class="styles__Text-sc-1cjsn6e-1 kuMQGu"
         >
           OR
         </p>
       </div>
       <div
-        class="styles__HorizontalLine-sc-1mvgtyc-6 fVkAEP"
+        class="styles__HorizontalLine-sc-1cjsn6e-6 hduEhi"
       />
     </div>
     <div>
       <button
-        class="styles__ButtonForm-sc-1penh9l-0 kKfXFj"
+        class="styles__ButtonForm-sc-scim8g-0 gGAxDf"
       >
         Signup Now
       </button>
