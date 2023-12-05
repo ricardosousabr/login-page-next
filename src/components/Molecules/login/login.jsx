@@ -15,7 +15,7 @@ export default function Login() {
     <Container>
       <ContainerItens>
         <BoxImageLogo>
-          <ImageLogo src="/img/logo.png" alt="" width={218} height={60} />
+          <ImageLogo src="./img/logo.png" alt="" width={218} height={60} />
         </BoxImageLogo>
         <BoxTitle>
           <Title>Login into your account</Title>
@@ -26,7 +26,7 @@ export default function Login() {
       </ContainerItens>
       <BoxImageBackground>
         <ImageBackground
-          src="/img/background-img.png"
+          src="./img/background-img.png"
           alt=""
           width={1248}
           height={1000}

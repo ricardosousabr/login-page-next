@@ -75,7 +75,7 @@ export default function Form() {
                   setEmailUser(e.target.value)
                 }}
               />
-              <Image src="/img/email-img.png" alt="" width={70} height={50} />
+              <Image src="./img/email-img.png" alt="" width={70} height={50} />
             </BoxInput>
           </div>
           <div>
@@ -92,7 +92,7 @@ export default function Form() {
                 }}
               />
               <Image
-                src="/img/password-img.png"
+                src="./img/password-img.png"
                 alt=""
                 width={70}
                 height={50}
